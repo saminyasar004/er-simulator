@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "RNBoilerplate",
+    "slug": "rnboilerplate",
+    "version": "1.0.0",
+    "scheme": "rnboilerplate",
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": ["expo-router"],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fbfefe"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#fbfefe"
+      },
+      "package": "com.saminyasar004.rnboilerplate",
+      "bundleIdentifier": "com.saminyasar004.rnboilerplate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#fbfefe"
+      },
+      "package": "com.saminyasar004.rnboilerplate",
+      "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ddcc2120-df98-47f1-aaa7-25e86a95394e"
+      }
+    }
+  }
+}
