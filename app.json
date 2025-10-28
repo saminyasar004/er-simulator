@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "RNBoilerplate",
-    "slug": "rnboilerplate",
+    "name": "ER Simulator",
+    "slug": "ersimulator",
     "version": "1.0.0",
-    "scheme": "rnboilerplate",
+    "scheme": "ersimulator",
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
@@ -16,25 +16,25 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#fbfefe"
+      "resizeMode": "cover",
+      "backgroundColor": "#133A3E"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#fbfefe"
+        "backgroundColor": "#133A3E"
       },
-      "package": "com.saminyasar004.rnboilerplate",
-      "bundleIdentifier": "com.saminyasar004.rnboilerplate"
+      "package": "com.saminyasar004.ersimulator",
+      "bundleIdentifier": "com.saminyasar004.ersimulator"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#fbfefe"
+        "backgroundColor": "#133A3E"
       },
-      "package": "com.saminyasar004.rnboilerplate",
+      "package": "com.saminyasar004.ersimulator",
       "edgeToEdgeEnabled": true
     },
     "extra": {
